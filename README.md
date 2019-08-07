@@ -2,7 +2,9 @@ Tutorial_Git_GitHub
 ===================
 
 Tutorial em português sobre Git e GitHub
-----------------------------------------
+
+Para ver os principais comandos do Terminal do Mac, acesse:
+https://github.com/marcellochuahy/Terminal_macOS
 
 Instalação
 ---------------------------------------------- 
