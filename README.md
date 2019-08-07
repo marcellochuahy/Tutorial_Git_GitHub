@@ -72,7 +72,8 @@ Branches
 git branch nome_da_ramificacao                       Cria uma ramificação
 git checkout nome_da_ramificacao                     Altera entre branches (entra na ramificação nome_da_ramificacao)
 git checkout -b nome_da_ramificacao                  Cria uma ramificação e entra nela (isso é um atalho para os 2 comandos acima)
-git push origin nome_da_ramificacao                  "Empurra" o branche local para o GitHub
+git branch Lista todos os branches locais e coloca um asterisco no branch ativo
+git push origin nome_da_ramificacao                  "Empurra" o branch local para o GitHub
 git push origin :ramificacao_que_sera_deletada       Deleta (no GitHub ) a ramificação ramificacao_que_sera_deletada
 git checkout -d ramificacao_que_sera_deletada        Deleta (localmente) a ramificação ramificacao_que_sera_deletada
 git diff nome_da_ramificacao_A nome_da_ramificacao_B Visualiza as diferenças entre 2 branches
