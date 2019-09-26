@@ -92,6 +92,8 @@ Tags
 ```
 git tag nome_da_tag commit_id    Cria uma tag
 git log                          Exibe os IDs dos commits
+git log --oneline                Exibe os IDs dos commits de forma resumida (one line)
+git reset --hard numero-do-hash  Volta o projeto para o estado até esse commit (numero-do-hash)
 ```
 
 Apagar ou recuperar arquivos
