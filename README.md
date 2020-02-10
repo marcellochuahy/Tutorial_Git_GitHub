@@ -54,12 +54,13 @@ Comitar arquivos (Stage Area -> HEAD)
 --------------
 ```
 git commit -m "Descrição da alteração"    Salva as alterações nos arquivos e os envia para a HEAD
+git commit -am "Descrição da alteração"   Adciona todos os arquivos modificados da pasta atual na Stage Area e salva as alterações nos arquivos e os envia para a HEAD
 ```
 
 Sincronizar seus arquivos com o repositório remoto (HEAD -> GitHub)
 -----------
 ```
-git push -u origin master    "Empurra" os arquivos da HEAD para o repositório remoto no GitHub
+git push -u origin master    "Empurra" os arquivos da HEAD para o repositório remoto no GitHub na branch master
 ```
 
 Atualizar seu repositório local com as alterações salvas no GitHub
